@@ -1,0 +1,29 @@
+{
+  "id": "3f156d59-317e-4496-89d5-502d72e56728",
+  "name": "Jupiter Job Queue Handler",
+  "publisher": "Jupiter AS",
+  "version": "1.0.0.1",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 89800,
+      "to": 89801
+    }
+  ],
+  "runtime": "14.0",
+  "target": "Cloud",
+  "features": [
+    "NoImplicitWith", "TranslationFile"
+  ],
+  "supportedLocales": ["en-US","nb-NO"]
+}

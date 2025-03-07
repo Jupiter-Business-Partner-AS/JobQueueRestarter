@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="nb-NO" original="Jupiter Job Queue Handler">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 1779973219 - Method 1857441064 - NamedType 2999392475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An error has been detected on the job "%1" on company "%2". Trying to restart job.</source>
+          <note from="Developer" annotates="general" priority="2">NOR="En feil er oppdaget på jobb "%1" i selskapet "%2". Prøver å starte jobb på nytt igjen."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JBP_JobQueueErrorHandler - Method RestartAndSendEmail - NamedType ErrorMessageLbl</note>
+          <target>En feil er oppdaget på jobb "%1" i selskapet "%2". Prøver å starte jobb på nytt igjen.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1779973219 - Method 1857441064 - NamedType 3670002418" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error on job queue %1</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Feil på jobbkø %1"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JBP_JobQueueErrorHandler - Method RestartAndSendEmail - NamedType ErrorSubjectLbl</note>
+          <target>Feil på jobbkø %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1779973219 - Method 743942932 - NamedType 2999392475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An error has been detected on the job %1 on company %2. The errors must be resolved manualy.</source>
+          <note from="Developer" annotates="general" priority="2">NOR="En feil er oppdaget på jobb %1 i selskapet %2. Feilen må følges opp manuelt."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JBP_JobQueueErrorHandler - Method SendEmail - NamedType ErrorMessageLbl</note>
+          <target>En feil er oppdaget på jobb %1 i selskapet %2. Feilen må følges opp manuelt.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1779973219 - Method 743942932 - NamedType 3670002418" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error on job queue "%1"</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Feil på jobbkø "%1""</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JBP_JobQueueErrorHandler - Method SendEmail - NamedType ErrorSubjectLbl</note>
+          <target>Feil på jobbkø "%1"</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4211963465 - Method 743942932 - NamedType 2999392475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Previous error on job %1 on company %2 has been resolved.</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Tidligere feil på jobb %1 i selskapet %2 er løst."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JBP_JobQueueEventSubscriber - Method SendEmail - NamedType ErrorMessageLbl</note>
+          <target>Tidligere feil på jobb %1 i selskapet %2 er løst.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4211963465 - Method 743942932 - NamedType 3670002418" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resolved - queue "%1"</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Løst - jobbkø "%1""</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JBP_JobQueueEventSubscriber - Method SendEmail - NamedType ErrorSubjectLbl</note>
+          <target>Løst - jobbkø "%1"</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2452371013 - Control 75535957 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 942706168">
+          <source>Specifies the value of the Job Queue Entry Fail Response field.</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Jobbkø håndtering ved feil"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension JBP_JobQueueEntries - Control JobQueueEntryFailResponse - Property ToolTip</note>
+          <target>Jobbkø håndtering ved feil</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4193094499 - Control 4202340187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2276662850">
+          <source>Job Queue Error Hanlding</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Jobbkø feilhåndtering"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension JBP_JobQueueEntryCard - Control JobQueueErrorHandling - Property Caption</note>
+          <target>Jobbkø feilhåndtering</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4193094499 - Control 2301870859 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2276662850">
+          <source>Specifies the value of the Number of restarts field.</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Antall omstarter"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension JBP_JobQueueEntryCard - Control JBP_NumberOfRestarts - Property ToolTip</note>
+          <target>Antall omstarter</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4193094499 - Control 2722402328 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2276662850">
+          <source>Specifies the value of the Number of restarts before email sendt field.</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Antall omstarter før epost sendes"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension JBP_JobQueueEntryCard - Control JBP_RestartsBeforeAlert - Property ToolTip</note>
+          <target>Antall omstarter før epost sendes</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4193094499 - Control 75535957 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2276662850">
+          <source>Specifies the value of the Job Queue Entry Fail Response field.</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Jobbkø håndtering ved feil"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension JBP_JobQueueEntryCard - Control JobQueueEntryFailResponse - Property ToolTip</note>
+          <target>Jobbkø håndtering ved feil</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4193094499 - Control 2744735497 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2276662850">
+          <source>Specifies the value of the Email on error field.</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Epost ved feil"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension JBP_JobQueueEntryCard - Control JobQueueEntryFailResponseEmail - Property ToolTip</note>
+          <target>Epost ved feil</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2661828775 - Field 1372379330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2990248934">
+          <source>Email on error sendt</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Epost ved feil sendt"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension JBP_JobQueueEntry - Field JBP_FailResponseEmailSent - Property Caption</note>
+          <target>Epost ved feil sendt</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2661828775 - Field 426045776 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2990248934">
+          <source>Response on error</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Håndtering ved feil"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension JBP_JobQueueEntry - Field JBP_JobQueueEntryFailResponse - Property Caption</note>
+          <target>Håndtering ved feil</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2661828775 - Field 1291113182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2990248934">
+          <source>Email on error</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Epost ved feil"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension JBP_JobQueueEntry - Field JBP_JobQueueEntryResponseEmail - Property Caption</note>
+          <target>Epost ved feil</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2661828775 - Field 2301870859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2990248934">
+          <source>Number of restarts</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Antall omstarter"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension JBP_JobQueueEntry - Field JBP_NumberOfRestarts - Property Caption</note>
+          <target>Antall omstarter</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2661828775 - Field 2722402328 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2990248934">
+          <source>Number of restarts before email sendt</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Antall omstarter før epost sendes"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension JBP_JobQueueEntry - Field JBP_RestartsBeforeAlert - Property Caption</note>
+          <target>Antall omstarter før epost sendes</target>
+        </trans-unit>
+        <trans-unit id="Enum 4153788731 - EnumValue 1303173321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restart</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Omstart"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum JBP_JobQEntryFailRespons - EnumValue Restart - Property Caption</note>
+          <target>Omstart</target>
+        </trans-unit>
+        <trans-unit id="Enum 4153788731 - EnumValue 2544340888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restart and send email</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Omstart og send epost"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum JBP_JobQEntryFailRespons - EnumValue Restart and Send Email - Property Caption</note>
+          <target>Omstart og send epost</target>
+        </trans-unit>
+        <trans-unit id="Enum 4153788731 - EnumValue 1251813484 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send Email</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Send epost"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum JBP_JobQEntryFailRespons - EnumValue Send Email - Property Caption</note>
+          <target>Send epost</target>
+        </trans-unit>
+        <trans-unit id="EnumExtension 4188923175 - EnumValue 3851312999 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2593693414">
+          <source>Job Queue Error message</source>
+          <note from="Developer" annotates="general" priority="2">NOR="Jobbkø feilmelding"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension JBP_EmailScenario - EnumValue Job Queue Error Message - Property Caption</note>
+          <target>Jobbkø feilmelding</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
